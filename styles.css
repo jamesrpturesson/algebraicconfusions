@@ -2,7 +2,7 @@ body {
   margin: 0px 0px 0px 0px;
 }
 header {
-  display: block;
+  display: flex;
   background-color: rgb(100, 100, 100);
   padding-top: 50px;
   padding-right: 30px;
@@ -12,9 +12,9 @@ header {
 }
 
 header div.logo {
-  width: 30%;
+  flex-grow: 3;
 }
 
 header div.menu_div {
-  max-width: 70%
+  flex-grow: 7;
 }
