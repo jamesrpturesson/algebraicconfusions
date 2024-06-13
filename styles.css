@@ -15,6 +15,10 @@ header div.logo {
   flex-grow: 3;
 }
 
-header div.menu_div {
+header nav.nav_menu {
   flex-grow: 7;
+}
+
+header nav.nav_menu li {
+  list-style-type: none;
 }
