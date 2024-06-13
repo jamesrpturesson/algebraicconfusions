@@ -3,7 +3,7 @@ body {
 }
 header {
   display: flex;
-  background-color: white;
+  background-color: #F8F8FF;
   padding-top: 50px;
   padding-right: 30px;
   padding-bottom: 50px;
