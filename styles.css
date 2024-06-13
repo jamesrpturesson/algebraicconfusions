@@ -9,10 +9,10 @@ header {
   width: 100%;
 }
 
-div.logo {
+header div.logo {
   width: 30%;
 }
 
-div.menu_div {
+header div.menu_div {
   width: 70%
 }
