@@ -1,8 +1,18 @@
 header {
   display: block;
-  background-color: rgb(255, 99, 71);
+  background-color: rgb(100, 100, 100);
   padding-top: 50px;
   padding-right: 30px;
   padding-bottom: 50px;
   padding-left: 80px;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+}
+
+header.logo {
+  width: 30%;
+}
+
+header.menu_div {
+  width: 70%
 }
