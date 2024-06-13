@@ -44,3 +44,11 @@ body .site_frame {
   margin-right: 10%;
   margin-left: 10%;
 }
+
+li.active {
+  background-color: black;
+}
+
+li.active a {
+  color: #F8F8FF;
+}
