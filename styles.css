@@ -34,6 +34,7 @@ header nav.nav_menu ul {
 header nav.nav_menu li {
   list-style-type: none;
   margin-left: 20px;
+  padding: 5px;
 }
 
 header nav.nav_menu li a {
@@ -47,7 +48,7 @@ body .site_frame {
 }
 
 li.active {
-  background-color: black;
+  background-color: DimGrey;
 }
 
 header nav.nav_menu li.active a {
