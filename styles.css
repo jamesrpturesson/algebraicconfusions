@@ -23,6 +23,7 @@ header div.logo a{
 
 header nav.nav_menu {
   flex-grow: 7;
+  display: flex;
   justify-content: flex-end;
 }
 
