@@ -27,6 +27,10 @@ header nav.nav_menu {
   justify-content: flex-end;
 }
 
+header nav.nav_menu il {
+  display: flex;
+}
+
 header nav.nav_menu li {
   list-style-type: none;
 }
