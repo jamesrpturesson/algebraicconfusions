@@ -14,5 +14,5 @@ header div.logo {
 }
 
 header div.menu_div {
-  width: 70%
+  max-width: 70%
 }
