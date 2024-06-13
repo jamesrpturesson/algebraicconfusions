@@ -27,8 +27,11 @@ header nav.nav_menu {
   justify-content: flex-end;
 }
 
-header nav.nav_menu li {
+header nav.nav_menu ul {
   display: flex;
+}
+
+header nav.nav_menu li {
   list-style-type: none;
   margin-left: 20px;
 }
