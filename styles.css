@@ -39,3 +39,8 @@ header nav.nav_menu li a {
   text-decoration: none;
   color: black;
 }
+
+body .site-frame {
+  margin-right: 10%;
+  margin-left: 10%;
+}
