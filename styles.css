@@ -23,8 +23,13 @@ header div.logo a{
 
 header nav.nav_menu {
   flex-grow: 7;
+  justify-content: flex-end;
 }
 
 header nav.nav_menu li {
   list-style-type: none;
+}
+header nav.nav_menu li a {
+  text-decoration: none;
+  color: black;
 }
