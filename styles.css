@@ -58,11 +58,15 @@ header nav.nav_menu li.active a {
 }
 
 .post_page {
-  padding:30px 10%;
+  padding:30px 20%;
   max-width: 210mm;
 }
 
 .post_title, .post_author {
   text-align: center;
+}
+
+.post_author {
+  font-weight: normal;
 }
 
