@@ -54,3 +54,12 @@ li.active {
 header nav.nav_menu li.active a {
   color: #F8F8FF;
 }
+
+.post_page {
+  padding: 10px;
+}
+
+.post_title, .post_author {
+  text-align: center;
+}
+
