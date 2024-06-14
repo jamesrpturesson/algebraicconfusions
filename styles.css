@@ -45,6 +45,8 @@ header nav.nav_menu li a {
 body .site_frame {
   margin-right: 10%;
   margin-left: 10%;
+  display: flex;
+  justify-content: center;
 }
 
 li.active {
