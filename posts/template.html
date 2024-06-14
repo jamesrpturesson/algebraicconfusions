@@ -1,1 +1,27 @@
-
+  <div class="site_frame">
+    <div class="post_page">
+      <h2 class="post_title">Groups</h2>
+      <h4 class="post_author">James Turesson</h4>
+      <p><strong>Definition.</strong> A group is a set $G$ together with a binary operation $\phi :G\times G\rightarrow G$ such that the following conditions are satisfied:</p>
+      <ol type="i">
+        <li>For all $f,g,h\in G$ we have $\phi(f, \phi (g,h))=\phi (\phi (f,g),h)$.</li>
+        <li>There is an element $1_{G}\in G$ such that for all elements $g\in G$ we have that $\phi (1_{G},g)=\phi (g,1_{G}) = g$. We call $1_{G}$ the identity element of $G$.</li>
+        <li>For any element $g\in G$ there is an element $g^{-1}$ such that $\phi (g^{-1},g)=\phi (g,g^{-1}) = 1_{G}$. $g^{-1}$ is called the inverse of $g$.</li>
+      </ol>
+      <p>This is denoted $(G, \phi )$, however, we may often just denote the group by its underlying set $G$.</p>
+      
+      <p>Groups are one of our most basic structures we impose on sets. These are very natural, think of addition of integers, where addition forms our binary operation, the identity is $0$ and the the inverse of any integer $z\in \mathbb{Z}$ is $-z$. The rationals without zero, $\mathbb{Q}\setminus \{0\}$ forms a group with respect to multiplication. The identity is $1$ and the inverse of $\frac{x}{y}$ is $\frac{y}{x}$.</p>
+      
+      <p><strong>Remark.</strong> For a group $G$ we usually denote the image of the pair $(g,h)$ under the binary operation map $\phi :G\times G\rightarrow G$ by $g\ast h$ for some symbol $\ast$. For the additive integer group this symbol is $+$, for the multiplicative rational group it is $\cdot$.</p>
+      
+      <p>The structure is something that we want to carry through our maps between groups as well to differentiate these maps from the regular set theoretic maps on the underlying sets.</p>
+      
+      <p><strong>Definition.</strong> Let $G$ and $H$ be two groups. A map $\phi :G\rightarrow H$ is called a group homomorphism if for each $g,h\in G$ we have:</p>
+      
+      $$\phi(g\ast_{G}h)=\phi(g)\ast_{H}\phi(h)$$
+      
+      <p>Where $\ast_{G}$ is the binary operation on $G$ and $\ast_{H}$ is the binary operation on $H$.</p>
+      
+      <p>This structure on the maps is a pleasant one, in the sense that the image of a group under a group homomorphism is also a group. This image group does not need to be the group of the target (or codomain) of the map, but it may be embedded in a nice way inside of the target. These two concepts are what form the basis of group theory, and with some more observations about the nature of these objects we can say quite alot about groups.</p>
+    </div>
+  </div>
