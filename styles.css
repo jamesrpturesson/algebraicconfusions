@@ -1,11 +1,5 @@
-
-@font-face {
-  font-family: "Computer Modern";
-  src: url('https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts.css');
-}
-
 * {
-  font-family: "Computer Modern", sans-serif;
+  font-family: "Computer Modern Serif", serif;
 }
 
 body {
