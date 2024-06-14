@@ -70,3 +70,7 @@ header nav.nav_menu li.active a {
   font-weight: normal;
 }
 
+footer {
+  height: 50vh;
+}
+
