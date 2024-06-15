@@ -72,10 +72,23 @@ header nav.nav_menu li.active a {
 
 footer {
   height: 50vh;
+  display: flex;
+  justify-content: center;
 }
 
 footer .back_to_top {
   font-family: Impact, fantasy;
   font-size: 50px;
 }
+
+footer .bttbtn {
+  display: flex;
+}
+
+footer .bttbtn a {
+  text-decoration: none;
+  color: black;
+}
+
+
 
