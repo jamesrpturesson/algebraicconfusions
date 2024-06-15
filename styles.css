@@ -83,11 +83,14 @@ footer .back_to_top {
 
 footer .bttbtn {
   display: flex;
+  height: fit-content;
 }
 
 footer .bttbtn a {
   text-decoration: none;
   color: black;
+  text-align: center;
+  width: 80px;
 }
 
 
