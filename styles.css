@@ -30,12 +30,14 @@ header nav.nav_menu {
 header nav.nav_menu ul {
   display: flex;
   padding: 0px;
+  align-items: center;
 }
 
 header nav.nav_menu li {
   list-style-type: none;
   margin-left: 20px;
   padding: 5px;
+  height: fit-content;
 }
 
 header nav.nav_menu li a {
