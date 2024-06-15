@@ -4,9 +4,8 @@ MathJax = {
   }
 };
 // Get the button:
-let mybutton = document.getElementById("bttBtn");
-
 window.addEventListener('DOMContentLoaded', function() {
+    let mybutton = document.getElementById("bttBtn");
     mybutton.style.display = "none";
 });
 
