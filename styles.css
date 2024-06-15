@@ -97,6 +97,11 @@ footer .bttbtn a {
   .post_page {
     padding:10px 5%;
   }
+
+  body .site_frame {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
 }
 
 
