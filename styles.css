@@ -74,3 +74,8 @@ footer {
   height: 50vh;
 }
 
+footer .back_to_top {
+  font-family: Impact, fantasy;
+  font-size: 50px;
+}
+
