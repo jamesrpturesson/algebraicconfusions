@@ -162,6 +162,7 @@ footer .bttbtn a {
 .artclGrd {
   display: flex;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
 .artclCrd {
