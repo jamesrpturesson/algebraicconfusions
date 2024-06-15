@@ -93,5 +93,10 @@ footer .bttbtn a {
   width: 80px;
 }
 
+@media screen and (max-width: 800px) {
+  .post_page {
+    padding:10px 5%;
+  }
+}
 
 
