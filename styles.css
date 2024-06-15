@@ -101,6 +101,7 @@ footer .bttbtn a {
     background-color: white;
     flex-direction: column;
     padding: 0px;
+    padding-top: 25px;
     margin: 0px 0px 0px 0px;
   }
   
