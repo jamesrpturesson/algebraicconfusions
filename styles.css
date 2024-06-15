@@ -161,9 +161,14 @@ footer .bttbtn a {
 
 .artclGrd {
   display: flex;
+  gap: 15px;
 }
 
 .artclCrd {
-  
+  padding: 15px;
+}
+
+.artclCrd h2 {
+  margin-top: 0px;
 }
 
