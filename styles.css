@@ -29,6 +29,7 @@ header nav.nav_menu {
 
 header nav.nav_menu ul {
   display: flex;
+  padding: 0px;
 }
 
 header nav.nav_menu li {
