@@ -3,9 +3,10 @@ MathJax = {
     inlineMath: [['$', '$']]
   }
 };
-// Get the button:
+// Get the button:#
+let mybutton = null;
 window.addEventListener('DOMContentLoaded', function() {
-    let mybutton = document.getElementById("bttBtn");
+    mybutton = document.getElementById("bttBtn");
     mybutton.style.display = "none";
 });
 
