@@ -72,7 +72,7 @@ header nav.nav_menu li.active a {
 }
 
 footer {
-  height: 50vh;
+  height: 25vh;
   display: flex;
   justify-content: center;
 }
@@ -144,6 +144,10 @@ footer .bttbtn a {
   body .site_frame {
     margin-right: 5%;
     margin-left: 5%;
+  }
+
+  footer {
+    height: 15vh;
   }
 }
 
