@@ -98,13 +98,18 @@ footer .bttbtn a {
   header {
     display: flex;
     background-color: white;
-    justify-content: column;
+    flex-direction: column;
     padding: 0px;
     margin: 0px 0px 0px 0px;
   }
   
   header div.logo {
     flex-grow: 1;
+    text-align: center;
+  }
+
+  header div.logo_text {
+    white-space: nowrap;
   }
   
   header div.logo a{
