@@ -1,4 +1,4 @@
-let query = location.search.split('?');
+let query = location.search.split('?')[1];
 let params = query.split('&');
 let par = null;
 for (i=0; i < params.length; i++) {
