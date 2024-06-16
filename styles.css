@@ -97,6 +97,24 @@ footer .bttbtn a {
   width: 80px;
 }
 
+.artclGrd {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.artclGrd a {
+  color: black;
+  text-decoration: none;
+  width: 31%;
+}
+
+.artclCrd {
+  padding: 15px;
+  background-color: lightgrey;
+}
+
 @media screen and (max-width: 1200px) {
   .post_page {
     padding:10px 10%;
@@ -162,24 +180,6 @@ footer .bttbtn a {
   footer {
     height: 15vh;
   }
-}
-
-.artclGrd {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.artclGrd a {
-  color: black;
-  text-decoration: none;
-  width: 31%;
-}
-
-.artclCrd {
-  padding: 15px;
-  background-color: lightgrey;
 }
 
 .artclCrd h2 {
