@@ -50,6 +50,7 @@ body .site_frame {
   margin-left: 10%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 li.active {
@@ -163,6 +164,7 @@ footer .bttbtn a {
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .artclGrd a {
@@ -173,6 +175,7 @@ footer .bttbtn a {
 .artclCrd {
   padding: 15px;
   background-color: lightgrey;
+  max-width: 30%;
 }
 
 .artclCrd h2 {
