@@ -97,6 +97,19 @@ footer .bttbtn a {
   width: 80px;
 }
 
+.tag_cloud {
+  justify-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.tag_cloud .tag {
+  background-color: lightgrey;
+  padding: 5px;
+}
+
 .artclGrd {
   display: flex;
   gap: 15px;
