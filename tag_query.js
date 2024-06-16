@@ -3,10 +3,9 @@ let params = query.split('&');
 let par = null;
 let tags = [];
 for (i=0; i < params.length; i++) {
-    console.log(params[i]);
     par = params[i].split('=');
     if (par[0] == 'tags'){
         tags = par[1].split(',');
     }
 }
-console.log(tags);
+
