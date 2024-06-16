@@ -28,47 +28,49 @@
 </header>
 <body>
   <div class="site_frame">
-
-    <p>We introduced the concept of the group in the last article. This is essentially imposing a structure on a set which we have seen is exemplified by the familiar sets of integers \mathbb{Z} with addition, and the non-zero rationals \mathbb{Q}\setminus 0 with multiplication. From now on, for any group G we denote the identity of G by 1_{G}, or by just 1 when it does not cause any confusion.</p>
-
-    <p><strong>Proposition.</strong> Let $G$ be a group with binary operation $\ast$. Then the identity of the group is unique in the sense that if $e$ and $f$ are both identities in $G$ then $e=f$.</p>
-    
-    <p><strong>Proof.</strong> Suppose that $e$ and $f$ are both identities. Then $e=e\ast f=f\ast e=f$.</p>
-    
-    <div class="qed">$\square$</div>
-    
-    <p>So we can speak of the identity, as it must be unique in the group. In the same manner we can speak of the unique inverse of an element, two inverses of an element in a group must indeed be equal. However it is very important to remember that we can still have elements whose inverses are the elements themselves, a trivial such element would be the identity of the group.</p>
-    
-    <p><strong>Proposition.</strong> Let $G$ be a group with binary operation $\ast$. Then the inverse of an element $g$ in the group $G$ is unique in the sense that if $g^{-1}$ and $g'$ are both inverses of $g$ then $g^{-1}=g'$.</p>
-    
-    <p><strong>Proof.</strong> Suppose that $g^{-1}$ and $g'$ are both inverses of $g$. Then we have $$g^{-1}=g^{-1}\ast 1_{G}=g^{-1}\ast g\ast g'=1_{G}\ast g'= g'.$$</p>
-    
-    <div class="qed">$\square$</div>
-    
-    <p>These proofs are short and a simple first exercise in introducing group theory. Though they are simple, the results are not necessarily obvious and do prove useful to us throughout our explorations of this area. Now we look at our next simple result which follows from the definition of group homomorphisms and the two propositions which we have just developed.</p>
-    
-    <p><strong>Proof.</strong> Let $\phi :G\rightarrow H$ be a group homomorphism. Then we have</p>
-    
-    $\phi (1_{G}) = 1_{H}$.
-    For $g\in G$ we have $\phi (g^{-1}) = \phi (g)^{-1}$.
-    <p><strong>Proof.</strong> We have $\phi(1_{G})=\phi(1_{G}\ast_{G}1_{G})=\phi(1_{G})\ast_{H}\phi(1_{G})$ from which we obtain $\phi(1_{G})=\phi(1_{G})\ast_{H}\phi(1_{G})$. We now multiply both sides of the equality by the inverse of $\phi(1_{G})$. We obtain $\phi(1_{G})\ast_{H}\phi(1_{G})^{-1}=\phi(1_{G})\ast_{H}\phi(1_{G})\ast_{H}\phi(1_{G})^{-1}$. But clearly $1_{H}=\phi(1_{G})\ast_{H}\phi(1_{G})^{-1}$ and from the right hand side we obtain $\phi(1_{G})\ast_{H}\phi(1_{G})\ast_{H}\phi(1_{G})^{-1} = \phi(1_{G})\ast_{H}1_{H}= \phi(1_{G})$.
-    We use the result of the first part of this proposition to note that $\phi(g)\ast_{H}\phi(g^{-1})=\phi(1_{G}=1_{H}$. This verifies that $\phi(g^{-1}) is the inverse to \phi(g)$.</p>
-    <div class="qed">$\square$</div>
-    
-    Finally we look at some basic classifications of group homomorphisms, with the familiar language of set theory. A group homomorphism might not have an image point for each element in the target group, it might also have two elements in the domain mapping to the same element in the target. In the same manner in which we define injective maps and surjective maps in set theory, we define the same concepts for a group homomorphism.
-    
-    \textsc{Definition.} Let \phi :G\rightarrow H be a group homomorphism. We say that \phi is:
-    
-    Injective, if for any x,y\in G we have that \phi (x)=\phi(y) implies that x=y.
-    Surjective, if for each y\in H there exists some x\in G such that \phi(x)=y.
-    \textsc{Remark.} Some authors will use onto to refer to surjective homomorphism and into to refer to injective homomorphism, however, we shall avoid these terms for the sake of clarity.
-    
-    Finally we come one of the essential concepts in group theory (and indeed a central concept to any algebraist), namely that of the isomorphism. An isomorphism of groups is a group homomorphism which is both injective and surjective, and its analogue in set theory is of course the concept of a bijective map. This allows us to form an equivalence of groups, where two groups are seen as equivalent if and only if there is an isomorphism from one of the groups to the other. We can think of an isomorphism as relabelling the elements of a group, giving each element of the domain a unique corresponding element in the target.
-    
-    \textsc{Definition.} Let \phi :G\rightarrow H be a group homomorphism. We say that \phi is an isomorphism of groups if it is both injective and surjective. We then say that G and H are isomorphic and we may denote this by G\cong H.
-    
-    A lot more should be said about isomorphisms, however this is a good place to stop and reflect on what we know about group homomorphisms now. It might not be clear to all how these shall be used yet, which is quite alright as we have yet to see even a basic example of the homomorphism. The idea is that we will be able to tell things about a group from the homomorphisms it admits, both as a target and as a domain of the homomorphisms. But to be able to continue along this path we must first understand how we can construct groups which lie inside a larger group, inbedded in some pleasant manner which preserves our group structures.
-    
+    <div class="post_page">
+      <h2 class="post_title">Groups</h2>
+      <h4 class="post_author">James Turesson</h4>
+      <p>We introduced the concept of the group in the last article. This is essentially imposing a structure on a set which we have seen is exemplified by the familiar sets of integers \mathbb{Z} with addition, and the non-zero rationals \mathbb{Q}\setminus 0 with multiplication. From now on, for any group G we denote the identity of G by 1_{G}, or by just 1 when it does not cause any confusion.</p>
+  
+      <p><strong>Proposition.</strong> Let $G$ be a group with binary operation $\ast$. Then the identity of the group is unique in the sense that if $e$ and $f$ are both identities in $G$ then $e=f$.</p>
+      
+      <p><strong>Proof.</strong> Suppose that $e$ and $f$ are both identities. Then $e=e\ast f=f\ast e=f$.</p>
+      
+      <div class="qed">$\square$</div>
+      
+      <p>So we can speak of the identity, as it must be unique in the group. In the same manner we can speak of the unique inverse of an element, two inverses of an element in a group must indeed be equal. However it is very important to remember that we can still have elements whose inverses are the elements themselves, a trivial such element would be the identity of the group.</p>
+      
+      <p><strong>Proposition.</strong> Let $G$ be a group with binary operation $\ast$. Then the inverse of an element $g$ in the group $G$ is unique in the sense that if $g^{-1}$ and $g'$ are both inverses of $g$ then $g^{-1}=g'$.</p>
+      
+      <p><strong>Proof.</strong> Suppose that $g^{-1}$ and $g'$ are both inverses of $g$. Then we have $$g^{-1}=g^{-1}\ast 1_{G}=g^{-1}\ast g\ast g'=1_{G}\ast g'= g'.$$</p>
+      
+      <div class="qed">$\square$</div>
+      
+      <p>These proofs are short and a simple first exercise in introducing group theory. Though they are simple, the results are not necessarily obvious and do prove useful to us throughout our explorations of this area. Now we look at our next simple result which follows from the definition of group homomorphisms and the two propositions which we have just developed.</p>
+      
+      <p><strong>Proof.</strong> Let $\phi :G\rightarrow H$ be a group homomorphism. Then we have</p>
+      
+      $\phi (1_{G}) = 1_{H}$.
+      For $g\in G$ we have $\phi (g^{-1}) = \phi (g)^{-1}$.
+      <p><strong>Proof.</strong> We have $\phi(1_{G})=\phi(1_{G}\ast_{G}1_{G})=\phi(1_{G})\ast_{H}\phi(1_{G})$ from which we obtain $\phi(1_{G})=\phi(1_{G})\ast_{H}\phi(1_{G})$. We now multiply both sides of the equality by the inverse of $\phi(1_{G})$. We obtain $\phi(1_{G})\ast_{H}\phi(1_{G})^{-1}=\phi(1_{G})\ast_{H}\phi(1_{G})\ast_{H}\phi(1_{G})^{-1}$. But clearly $1_{H}=\phi(1_{G})\ast_{H}\phi(1_{G})^{-1}$ and from the right hand side we obtain $\phi(1_{G})\ast_{H}\phi(1_{G})\ast_{H}\phi(1_{G})^{-1} = \phi(1_{G})\ast_{H}1_{H}= \phi(1_{G})$.
+      We use the result of the first part of this proposition to note that $\phi(g)\ast_{H}\phi(g^{-1})=\phi(1_{G}=1_{H}$. This verifies that $\phi(g^{-1}) is the inverse to \phi(g)$.</p>
+      <div class="qed">$\square$</div>
+      
+      Finally we look at some basic classifications of group homomorphisms, with the familiar language of set theory. A group homomorphism might not have an image point for each element in the target group, it might also have two elements in the domain mapping to the same element in the target. In the same manner in which we define injective maps and surjective maps in set theory, we define the same concepts for a group homomorphism.
+      
+      \textsc{Definition.} Let \phi :G\rightarrow H be a group homomorphism. We say that \phi is:
+      
+      Injective, if for any x,y\in G we have that \phi (x)=\phi(y) implies that x=y.
+      Surjective, if for each y\in H there exists some x\in G such that \phi(x)=y.
+      \textsc{Remark.} Some authors will use onto to refer to surjective homomorphism and into to refer to injective homomorphism, however, we shall avoid these terms for the sake of clarity.
+      
+      Finally we come one of the essential concepts in group theory (and indeed a central concept to any algebraist), namely that of the isomorphism. An isomorphism of groups is a group homomorphism which is both injective and surjective, and its analogue in set theory is of course the concept of a bijective map. This allows us to form an equivalence of groups, where two groups are seen as equivalent if and only if there is an isomorphism from one of the groups to the other. We can think of an isomorphism as relabelling the elements of a group, giving each element of the domain a unique corresponding element in the target.
+      
+      \textsc{Definition.} Let \phi :G\rightarrow H be a group homomorphism. We say that \phi is an isomorphism of groups if it is both injective and surjective. We then say that G and H are isomorphic and we may denote this by G\cong H.
+      
+      A lot more should be said about isomorphisms, however this is a good place to stop and reflect on what we know about group homomorphisms now. It might not be clear to all how these shall be used yet, which is quite alright as we have yet to see even a basic example of the homomorphism. The idea is that we will be able to tell things about a group from the homomorphisms it admits, both as a target and as a domain of the homomorphisms. But to be able to continue along this path we must first understand how we can construct groups which lie inside a larger group, inbedded in some pleasant manner which preserves our group structures.
+    </div>
   </div>
 </body>
 <footer>
