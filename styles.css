@@ -134,6 +134,7 @@ footer .bttbtn a {
 .artclCrd {
   padding: 15px;
   background-color: lightgrey;
+  width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
