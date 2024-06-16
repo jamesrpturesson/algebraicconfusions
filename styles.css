@@ -107,6 +107,11 @@ footer .bttbtn a {
   max-width: 30%;
 }
 
+.tag_cloud a {
+  text-decoration: none;
+  color: black;
+}
+
 .tag_cloud .tag {
   background-color: lightgrey;
   padding: 5px;
