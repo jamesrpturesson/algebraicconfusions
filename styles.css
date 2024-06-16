@@ -99,10 +99,10 @@ footer .bttbtn a {
 
 .tag_cloud {
   align-self: center;
-  justify-content: space-evenly;
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 8px;
   padding: 30px 5px;
   max-width: 30%;
 }
@@ -186,6 +186,10 @@ footer .bttbtn a {
   body .site_frame {
     margin-right: 5%;
     margin-left: 5%;
+  }
+
+  .tag_cloud {
+    max-width: 90%;
   }
 
   .artclGrd a {
