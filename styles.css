@@ -98,11 +98,13 @@ footer .bttbtn a {
 }
 
 .tag_cloud {
-  justify-self: center;
+  align-self: center;
+  justify-content: space-evenly;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   gap: 5px;
+  padding: 30px 5px;
+  max-width: 30%;
 }
 
 .tag_cloud .tag {
