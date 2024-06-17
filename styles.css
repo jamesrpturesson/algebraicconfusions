@@ -73,22 +73,26 @@ body .site_frame {
   gap: 10px;
 }
 
-.home_artclGrd a{
+.home_artclGrd a {
   text-decoration: none;
   color: black;
 }
 
-.home_artclGrd .artclCrd{
+.home_artclGrd .artclCrd {
   width: auto;
 }
 
 
-.home_blog .latest_posts{
+.home_blog .latest_posts {
   width: 67%;
 }
 
-.home_blog .tags{
+.home_blog .tags {
   width: 33%;
+}
+
+.home_blog .tags h2 {
+  text-align: right;
 }
 
 li.active {
