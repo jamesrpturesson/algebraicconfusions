@@ -253,6 +253,10 @@ footer .bttbtn a {
     flex-direction: column-reverse;
   }
 
+  .home_blog .home_artclGrd {
+    flex-direction: column;
+  }
+
   .home_blog .latest_posts {
     width: 100%;
   }
