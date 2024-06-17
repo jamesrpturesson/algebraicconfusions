@@ -91,6 +91,24 @@ body .site_frame {
   width: 33%;
 }
 
+.home_blog .home_tag_cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: end;
+}
+
+.home_blog .home_tag_cloud .tag {
+  padding: 5px;
+  background-color: lightgrey;
+}
+
+.home_blog .home_tag_cloud a {
+  tex-decoration: none;
+  color: black;
+}
+
+
 .home_blog .tags h3 {
   text-align: right;
 }
