@@ -63,17 +63,20 @@ body .site_frame {
 }
 
 .home_blog {
-  display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
+.home_artclGrd {
+  display: flex;
+}
+
 .home_blog .latest_posts{
-  flex-grow: 2;
+  width: 67%;
 }
 
 .home_blog .tags{
-  flex-grow: 1;
+  width: 33%;
 }
 
 li.active {
