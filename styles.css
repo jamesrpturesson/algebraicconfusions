@@ -129,6 +129,8 @@ footer .bttbtn a {
   color: black;
   text-decoration: none;
   width: 31%;
+  max-height: 132px;
+  overflow: hidden;
 }
 
 .artclCrd {
