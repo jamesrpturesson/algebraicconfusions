@@ -65,11 +65,23 @@ body .site_frame {
 .home_blog {
   margin-top: 10px;
   margin-bottom: 10px;
+  display: flex;
 }
 
 .home_artclGrd {
   display: flex;
+  gap: 10px;
 }
+
+.home_artclGrd a{
+  text-decoration: none;
+  color: black;
+}
+
+.home_artclGrd .artclCrd{
+  width: auto;
+}
+
 
 .home_blog .latest_posts{
   width: 67%;
