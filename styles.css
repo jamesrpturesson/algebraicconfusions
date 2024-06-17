@@ -104,7 +104,7 @@ body .site_frame {
 }
 
 .home_blog .home_tag_cloud a {
-  tex-decoration: none;
+  text-decoration: none;
   color: black;
 }
 
