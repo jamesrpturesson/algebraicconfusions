@@ -200,6 +200,10 @@ footer .bttbtn a {
   width: 100%;
 }
 
+.artclCrd h2 {
+  margin-top: 0px;
+}
+
 @media screen and (max-width: 1200px) {
   .post_page {
     padding:10px 10%;
@@ -300,7 +304,8 @@ footer .bttbtn a {
   }
 }
 
-.artclCrd h2 {
-  margin-top: 0px;
+@media screen and (max-width: 500px) {
+  .artclGrd a {
+      width: 100%;
+  }
 }
-
