@@ -53,6 +53,29 @@ body .site_frame {
   flex-direction: column;
 }
 
+.home_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome {
+  margin-bottom: 10px;
+}
+
+.home_blog {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.home_blog .latest_posts{
+  flex-grow: 2;
+}
+
+.home_blog .tags{
+  flex-grow: 1;
+}
+
 li.active {
   background-color: DimGrey;
 }
